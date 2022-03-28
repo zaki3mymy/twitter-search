@@ -1,11 +1,10 @@
 <template>
   <div class="py-5">
     <h2>Twitter search easier</h2>
-    <p class="lead">For all twitter lovers...</p>
   </div>
   <div class="row">
     <div class="col-md-8">
-      <form>
+      <form @submit.prevent>
         <div class="mb-3">
           <label for="accountId">Account ID</label>
           <div class="input-group">
