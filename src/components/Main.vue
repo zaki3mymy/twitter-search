@@ -47,7 +47,7 @@ export default {
   },
   methods: {
     search() {
-      let query = `q=`
+      let query = `q=include:nativeretweets `
           + (this.accountId ? `from:${this.accountId} `: "")
           + (this.since ? `since:${this.since} ` : "")
           + (this.until ? `until:${this.until} ` : "")
